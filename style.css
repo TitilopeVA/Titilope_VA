@@ -1,0 +1,528 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: montserrat, sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+    color: rgb(58, 58, 112);
+    background-color: white;
+    max-width: 1400px;
+}
+a{
+    text-decoration: none;
+    color: rgb(58, 58, 112);
+}
+h5{
+    font-size: large;
+    word-spacing: 2px;
+}
+header{
+    display: flex;
+    padding: 30px 30px;
+    width: 100%;
+}
+header h3{
+    font-size: 2vw;
+}
+nav{
+    display: flex;
+    margin: 0 50px 0 auto;
+
+}
+nav ul{
+    display: flex;
+}
+ nav li{
+    list-style: none;
+    margin: 0 30px 0 auto;
+ }
+ nav button{
+    padding: 10px 10px;
+    border-radius: 25px;
+    background-color: rgb(58, 58, 112);
+    border: none;
+    font-style: italic;
+    font-size: 15px;
+    color: white;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+ 
+ #home{
+    padding: 150px 30px 150px 30px;
+    display: flex;
+ }
+ #homeText{
+    width: 60%;
+ }
+ #homeImg{
+    width: 40%;
+    position: absolute;
+    top: 100px;
+    right: 0;
+ }
+ #homeText1{
+    display: inline;
+    text-align: center;
+ }
+ #homeText{
+    font-size: 1.5vw;
+
+ }
+ h4{
+    font-size: 2vw;
+    display: inline;
+ }
+ h1{
+    font-size: 5vw;
+ }
+ #homeText button{
+    margin: 0 auto;
+    width: 90%;
+    padding: 10px 0;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: rgb(58, 58, 112);
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    cursor: pointer;
+ }
+ h2{
+    text-align: center;
+ }
+ #about{
+    background-color: rgb(58, 58, 112);
+    color: white;
+    padding: 50px 0 30px 0;
+ }
+ #aboutMe{
+    display: flex;
+    padding: 50px 50px;
+ }
+#aboutMe p{
+    line-height: 30px;
+}
+ .aboutMe{
+    width: 50%;
+ }
+ .aboutMe h3{
+    margin: 20px 0;
+ }
+ #aboutMe0{
+    padding-right: 20px;
+ }
+ #aboutMe1{
+    background-image: url(../Image/vecteezy_close-up-hands-typing-at-desk_2753503.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ #virtual{
+   display: block;
+ }
+ .aboutMe p{
+   display: none;
+ }
+ #Project{
+   padding: 50px 0;
+   background-color: rgb(58, 58, 112);
+   color: white;
+
+ }
+ .Project1{
+   display: flex;
+   width: 100%;
+   margin-top: 10px;
+ }
+ .Project{
+   width: 33.33%;
+   text-align: center;
+ }
+ .Project img{
+   width: 100%;
+   height: 80%;
+ }
+ #blogSub{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    
+}
+.blog{
+    width: 30%;
+    margin: 10px 10px;
+    display: inline-block;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px 1px rgb(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+.blog img{
+    width: 100%;
+    height: 70%;
+}
+.projectDescription{
+    margin: 5px 10px 10px 10px;
+}
+.projectDescription p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+ #contact{
+    text-align: center;
+    padding: 50px 50px;
+    background-color: rgb(58, 58, 112);
+    color: white;
+ }
+ #contact1{
+    width: 80%;
+    margin: 0 auto;
+ }
+ #contact h2{
+    margin: 20px 0;
+ }
+ #contact-Message{
+    margin: 20px 0;
+    line-height: 25px;
+ }
+ #skills{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0 30px 0;
+ }
+ #skills li{
+    list-style: none;
+    padding: 5px 0;
+ }
+ #skills h3{
+    margin-bottom: 10px;
+ }
+ #skills h2{
+    margin-bottom: 50px;
+ }
+ #skill1{
+    display: inline-block;
+    width:50%;
+ }
+ #skill2{
+    display: inline-block;
+    width: 40%;
+    margin-left: auto;
+ }
+ #blog{
+    padding: 40px 0;
+ }
+ 
+
+ .label{
+    display: block;
+}
+.info{
+    display: block;
+    width: 60%;
+    height: 20px;
+    border: 1px white solid;
+    background-color: transparent;
+    border-radius: 25px;
+    margin: 10px auto;
+    padding: 5px 5px;
+    text-align: center;
+    color: white;
+}
+.formSubmit{
+    width: 30%;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 20px auto 0 auto;
+    padding: 5px 5px;
+    background-color: white;
+    color: rgb(58, 58, 112);
+
+}
+.formSubmit:hover{
+    color: rgb(58, 58, 112);
+    background-color: rgba(255,255,255,0.5);
+}
+#message{
+    display: block;
+    width: 60%;
+    height: 150px;
+    border: 1px white solid;
+    background-color: transparent;
+    border-radius: 25px;
+    margin: 10px auto;
+    padding: 10px 10px;
+    color: white;
+
+}
+footer{
+    padding-top: 50px;
+    border-top: 2px rgb(58, 58, 112) solid ;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+#footer h1, #footer p{
+    display: inline-block;
+    text-align: center;
+    padding: 20px 20px;
+}
+#contactMe{
+    margin: 0px auto;
+    text-align: center;
+    padding: 50px 50px 0 50px;
+}
+h2{
+    font-size: 30px;
+    
+}
+.underline{
+    height: 10px;
+    width: 100px;
+    background-color: rgb(58, 58, 112);
+    margin: -50px auto 50px auto;
+    border-radius: 25px;
+}
+#nav1{
+    display: none;
+}
+#navIcon{
+    display: none;
+}
+#blogPage{
+    width: 60%;
+    margin: 0 auto;
+}
+#blogPlaceimg{
+    width: 80%;
+    margin: 30px auto;
+    height:200px;
+    text-align: center;
+}
+#blogPlaceimg img{
+    width: 80%;
+    height: 100%;
+}
+.blogHeader3{
+    margin: 30px 0 15px 0;
+}
+.blogHeader{
+    margin: 10px 0;
+}
+.blogText{
+    line-height: 25px;
+}
+.lastPara{
+    margin: 30px 0 50px 0;
+}
+.break{
+    margin-top: 20px;
+}
+.blogList{
+    padding: 5px 0;
+}
+
+@media screen and (max-width:1000px){
+    #nav{
+        display: none;
+    }
+    #nav1{
+        display: none;
+        z-index: 4;
+        position: fixed;
+        margin: 30px auto 0 auto;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        background-color: white;
+        
+    }
+    #nav1 ul{
+        display: block;
+    }
+    #nav1 li{
+        margin: 30px 0;
+    }
+    #nav1 button{
+        margin-top: 30px;
+    }
+    header h3{
+        font-size: 25px;
+    }
+    #navIcon{
+        display: inline-block;
+        margin-left: auto;
+        margin-right: 50px;
+        cursor: pointer;
+    }
+    #navIconOpen{
+        color: rgb(58, 58, 112);
+        display: inline-block;
+        padding: 5px 5px;
+    }
+    #home{
+        display: block;
+        padding: 50px 20px 20px 20px;
+        text-align: center;
+        background-image: url(../Image/animate\ \(1\).png);
+        background-position: center;
+        background-size: cover;
+    }
+    #homeText{
+        width: 100%;
+    }
+    #homeImg{
+        display: none;
+    }
+    h4{
+        font-size: 4vw;
+        display: inline;
+     }
+     h1{
+        font-size: 10vw;
+        
+     }
+     #homeText h1{
+        font-weight: 1000;
+        -webkit-text-stroke: 2px white;
+
+     }
+     h5{
+        font-size: 50px;
+        margin-top: -15px;
+     }
+     #homeText1{
+        font-size: 2.5vw;
+        margin-bottom: 40px;
+        background-color: white;
+        padding: 5px 5px;
+        border-radius: 25px;
+     }
+     #homeText2{
+        font-size: 4vw;
+        margin: 20px 0;
+        background-color: white;
+     }
+     #about{
+        margin-top: 20px;
+        background-color: rgb(58, 58, 112);
+        color: white;
+        padding: 50px 0;
+     }
+     #aboutMe{
+        display: block;
+        padding: 0 20px;
+     }
+     #aboutMe0{
+        width: 100%;
+        text-align: center;
+     }
+     #skills{
+        padding: 50px 0;
+     }
+     #skill1{
+        width: 100%;
+        margin-bottom: 20px;
+     }
+     #skill2{
+        width: 100%;
+     }
+     .Project1{
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+      }
+      .Project{
+        width: 100%;
+        margin: 20px 0px;
+        text-align: center;
+      }
+      #blogSub{
+        display: block;
+        margin-top: 70px;
+        text-align: center;
+        
+    }
+    .blog{
+        width: 80%;
+        margin: 10px 10px;
+        display: inline-block;
+        border-radius: 25px;
+        box-shadow: 0 2px 5px 1px rgb(0, 0, 0, 0.5);
+        overflow: hidden;
+    }
+     #contact{
+        width: 100%;
+        padding: 50px 0;
+        background-color: rgb(58, 58, 112);
+        color: white;
+        text-align: center;
+     }
+     #contact1{
+        margin: 0 auto;
+        width: 90%;
+        padding: 0;
+     }
+     .info{
+        border: 1px white solid;
+        color: white;
+        width: 90%;
+    }
+    .formSubmit{
+        background-color: white;
+        color: rgb(58, 58, 112);
+        width: 80%;
+    
+    }
+    .formSubmit:hover{
+        color: rgb(58, 58, 112);
+        background-color: rgba(255,255,255,0.5);
+    }
+    #message{
+        border: 1px white solid;
+        color: white;
+        width: 90%;
+    }
+    footer{
+        display: block;
+        text-align: center;
+    }
+    #footer .footer-nav{
+        display: none;
+    }
+    .h-captcha{
+        margin: 0 auto;
+    }
+    #blogPage{
+        width: 90%;
+        margin: 0 auto;
+    }
+    #blogPlaceimg{
+        width: 100%;
+        margin: 30px auto;
+        height:200px;
+        text-align: center;
+    }
+    #blogPlaceimg img{
+        width: 80%;
+        height: 100%;
+    }
+}
